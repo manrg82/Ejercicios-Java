@@ -26,7 +26,7 @@ public class EscribirPersonasApp {
 				stDat.writeDouble(sld[i]);
 			}
 		}catch(FileNotFoundException FNF) {
-			System.out.println("FILENOTFOUNT: "+FNF);
+			System.out.println("FILENOTFOUND: "+FNF);
 		}catch(EOFException EOF) {
 			System.out.println("EOF: "+EOF);
 		}catch(IOException exc){
