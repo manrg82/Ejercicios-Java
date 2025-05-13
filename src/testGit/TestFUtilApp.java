@@ -13,6 +13,11 @@ public class TestFUtilApp {
 		}else {
 			System.out.println("No Existe");
 		}
+		if(FUtil.existe("")){
+			System.out.println("Existe");
+		}else {
+			System.out.println("No Existe");
+		}
 	}
 
 }
